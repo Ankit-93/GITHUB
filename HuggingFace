@@ -1,0 +1,14 @@
+git lfs install
+git lfs track "src/faceRecognize/facerec/weights/facenet_keras_weights.h5"
+
+git add .gitattributes
+git add src/faceRecognize/facerec/weights/facenet_keras_weights.h5
+git commit -m "Track large files with Git LFS"
+
+git push origin main
+
+
+################################################################################
+
+
+git remote set-url origin https://Ankit93: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@huggingface.co/spaces/Ankit93/Profile
